@@ -84,6 +84,8 @@ FILES_COPY(){
   cp $HOME/.frannksz-dotfiles/dotfiles/home/.xcompose $HOME
   touch .zhistory $HOME
   cp $HOME/.frannksz-dotfiles/dotfiles/.config/kitty/kitty.conf $HOME/.config/kitty
+  cp $HOME/.frannksz-dotfiles/dotfiles/.config/sway/config $HOME/.config/sway
+  cp $HOME/.frannksz-dotfiles/dotfiles/.config/sway/config.d $HOME/.config/sway/config.d
   cp $HOME/.frannksz-dotfiles/dotfiles/.config/kitty/theme.conf $HOME/.config/kitty
   cp $HOME/.frannksz-dotfiles/dotfiles/.config/waybar/config.jsonc $HOME/.config/waybar
   cp $HOME/.frannksz-dotfiles/dotfiles/.config/waybar/scripts/* $HOME/.config/waybar/scripts && chmod +x $HOME/.config/waybar/scripts/*
