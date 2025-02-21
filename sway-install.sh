@@ -12,6 +12,7 @@ FOLDER_CREATE(){
   mkdir $HOME/.frannksz-dotfiles
   mkdir $HOME/.compile
   mkdir $HOME/.config/sway
+  mkdir $HOME/.config/sway/config.d
   mkdir $HOME/.config/waybar
   mkdir $HOME/.config/dunst
   mkdir $HOME/.config/wofi
